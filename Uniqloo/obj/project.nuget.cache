@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hyyGdSjeQP8=",
+  "dgSpecHash": "NnvLRB/SVDY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\99460\\Desktop\\HomeTasks\\Uniqloo\\Uniqloo\\Uniqloo.csproj",
+  "projectFilePath": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Uniqloo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\99460\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\99460\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

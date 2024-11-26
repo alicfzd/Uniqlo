@@ -24,7 +24,12 @@
                     <input accept="image/*" class="form-control" asp-for="File">
                     <span class="text-danger" asp-validation-for="File"></span>
                 </div>
-                
+                <div class="col">
+                    <label asp-for="OtherFiles">Other images</label>
+                    <input accept="image/*" class="form-control" asp-for="OtherFiles">
+                    <span class="text-danger" asp-validation-for="OtherFiles"></span>
+                </div>
+            </div>
             <div class="form-row">
                 <div class="col">
                     <label asp-for="CostPrice"></label>
@@ -48,11 +53,13 @@
                     <input class="form-control" asp-for="Quantity">
                     <span class="text-danger" asp-validation-for="Quantity"></span>
                 </div>
-                    <div class="col">
-                        <label asp-for="BrandId">Brands</label>
-                        <select class="form-control" asp-for="BrandId" asp-items='new SelectList(ViewBag.Catagories,"ID","Name")'></select>
-                        <span class="text-danger" asp-validation-for="BrandId"></span>
-                    </div>
+                <div class="col">
+                    <label asp-for="BrandId">Brands</label>
+                    <select class="form-control" asp-for="BrandId" asp-items='new SelectList(ViewBag.Categories,"Id","Name")'>
+                        <option disabled selected>Select brand</option>
+                    </select>
+                    <span class="text-danger" asp-validation-for="BrandId"></span>
+                </div>
             </div>
             <button type="submit" class="btn btn-primary my-2">Submit</button>
         </form>

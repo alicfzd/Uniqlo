@@ -2,6 +2,9 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Uniqloo.DataAccess;
+using Uniqloo.ViewModel.Commons;
+using Uniqloo.ViewModel.Products;
+using Uniqloo.ViewModel.Slider;
 
 
 namespace Uniqloo.Controllers
@@ -10,7 +13,24 @@ namespace Uniqloo.Controllers
     {
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Sliders.ToListAsync());
+            HomeVM vm = new();
+            vm.Sliders = await _context.Sliders.Select(x => new SliderListItemVM
+            {
+                ImageUrl = x.ImageUrl,
+                Link = x.Link,
+                Subtitle = x.Subtitle,
+                Title = x.Title
+            }).ToListAsync();
+            vm.Products = await _context.Products.Select(x => new ProductListItemVM
+            {
+                CoverImage = x.CoverImage,
+                Discount = x.Discount,
+                Id = x.Id,
+                IsInStock = x.Quantity > 0,
+                Name = x.Name,
+                SellPrice = x.SellPrice
+            }).ToListAsync();
+            return View(vm);
         }
         public IActionResult About()
         {
