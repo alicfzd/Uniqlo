@@ -40,6 +40,10 @@ namespace Uniqloo.Controllers
         {
             return View();
         }
+        public IActionResult Shop()
+        {
+            return View();
+        }
 
     }
 }

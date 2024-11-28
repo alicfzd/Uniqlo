@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\99460\\Desktop\\Uniqloo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\viewmodel\\shops\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\viewmodel\\shops\\shopvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\viewmodel\\brands\\brandandproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\viewmodel\\brands\\brandandproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "Uniqloo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "Uniqloo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Uniqloo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "Uniqloo\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAADMBAAAAAAAAAAAxwEwBAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T21:36:59.228Z",
+              "WhenOpened": "2024-11-28T16:06:18.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Uniqloo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Controllers\\HomeController.cs*",
+              "RelativeToolTip": "Uniqloo\\Controllers\\HomeController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:52:39.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Uniqloo\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Areas\\Admin\\Views\\Product\\Index.cshtml*",
-              "RelativeToolTip": "Uniqloo\\Areas\\Admin\\Views\\Product\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "Uniqloo\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "Uniqloo\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T21:36:40.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "Uniqloo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "Uniqloo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T21:36:38.39Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductImage.cs",
-              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Models\\ProductImage.cs",
-              "RelativeDocumentMoniker": "Uniqloo\\Models\\ProductImage.cs",
-              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Models\\ProductImage.cs*",
-              "RelativeToolTip": "Uniqloo\\Models\\ProductImage.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T21:30:01.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Uniqloo\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Uniqloo\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAYwF4AAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T21:01:32.444Z",
+              "WhenOpened": "2024-11-28T15:39:34.89Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_adminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Areas\\Admin\\Views\\Shared\\_adminLayout.cshtml",
-              "RelativeDocumentMoniker": "Uniqloo\\Areas\\Admin\\Views\\Shared\\_adminLayout.cshtml",
-              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Areas\\Admin\\Views\\Shared\\_adminLayout.cshtml*",
-              "RelativeToolTip": "Uniqloo\\Areas\\Admin\\Views\\Shared\\_adminLayout.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "Uniqloo\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Controllers\\ShopController.cs*",
+              "RelativeToolTip": "Uniqloo\\Controllers\\ShopController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:31:06.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Uniqloo\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Uniqloo\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-26T20:57:34.527Z",
+              "WhenOpened": "2024-11-28T15:40:20.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BrandAndProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\ViewModel\\Brands\\BrandAndProductVM.cs",
+              "RelativeDocumentMoniker": "Uniqloo\\ViewModel\\Brands\\BrandAndProductVM.cs",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\ViewModel\\Brands\\BrandAndProductVM.cs",
+              "RelativeToolTip": "Uniqloo\\ViewModel\\Brands\\BrandAndProductVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:34:39.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShopVM.cs",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\ViewModel\\Shops\\ShopVM.cs",
+              "RelativeDocumentMoniker": "Uniqloo\\ViewModel\\Shops\\ShopVM.cs",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\ViewModel\\Shops\\ShopVM.cs",
+              "RelativeToolTip": "Uniqloo\\ViewModel\\Shops\\ShopVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:33:25.785Z",
               "EditorCaption": ""
             }
           ]

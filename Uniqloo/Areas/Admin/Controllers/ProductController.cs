@@ -89,27 +89,29 @@ namespace Uniqloo.Areas.Admin.Controllers
             return View(data);
 
         }
-        [HttpPost]
-        public async Task<IActionResult> DeleteImgs(int id, IEnumerable<string> imgNames)
-        {
-            int result = await _context.ProductImage.Where(x => imgNames.Contains(x.ImageUrl)).ExecuteDeleteAsync();
-            if (result > 0)
-            {
-                
-                var imageFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imgs"); 
-                foreach (var imgName in imgNames)
-                {
-                    var filePath = Path.Combine(imageFolderPath, imgName);
+        //[HttpPost]
+        //public async Task<IActionResult> DeleteImgs(int id, IEnumerable<string> imgNames)
+        //{
+        //    int result = await _context.ProductImage.Where(x => imgNames.Contains(x.ImageUrl)).ExecuteDeleteAsync();
+        //    if (result > 0)
+        //    {
 
-                    
-                    if (System.IO.File.Exists(filePath))
-                    {
-                        System.IO.File.Delete(filePath);
-                    }
-                }
+        //        var imageFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imgs"); 
+        //        foreach (var imgName in imgNames)
+        //        {
+        //            var filePath = Path.Combine(imageFolderPath, imgName);
 
-            }
-            return RedirectToAction(nameof(Update), new { id });
-        }
+
+        //            if (System.IO.File.Exists(filePath))
+        //            {
+        //                System.IO.File.Delete(filePath);
+        //            }
+        //        }
+
+        //    }
+        //    return RedirectToAction(nameof(Update), new { id });
+        //}
     }
+
 }
+
