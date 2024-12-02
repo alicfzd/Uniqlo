@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\99460\\Desktop\\Uniqloo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\views\\accountcontrolle\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\views\\accountcontrolle\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\viewmodel\\baskets\\basketcookieitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\viewmodel\\baskets\\basketcookieitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\viewmodel\\auths\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\viewmodel\\auths\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\helper\\cookiehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\helper\\cookiehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|c:\\users\\99460\\desktop\\uniqloo\\uniqloo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F08E56D1-9EC7-4911-8D47-56C9EECDC8C3}|Uniqloo\\Uniqloo.csproj|solutionrelative:uniqloo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CookieHelper.cs",
-              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Helper\\CookieHelper.cs",
-              "RelativeDocumentMoniker": "Uniqloo\\Helper\\CookieHelper.cs",
-              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Helper\\CookieHelper.cs",
-              "RelativeToolTip": "Uniqloo\\Helper\\CookieHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Program.cs",
+              "RelativeDocumentMoniker": "Uniqloo\\Program.cs",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Program.cs",
+              "RelativeToolTip": "Uniqloo\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T17:54:20.49Z",
+              "WhenOpened": "2024-12-02T20:20:53.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Uniqloo\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Uniqloo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJcAAACSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-28T16:40:31.226Z",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Uniqloo\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Uniqloo\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T20:10:31.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Uniqloo\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Uniqloo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T20:10:28.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BasketCookieItemVM.cs",
-              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\ViewModel\\Baskets\\BasketCookieItemVM.cs",
-              "RelativeDocumentMoniker": "Uniqloo\\ViewModel\\Baskets\\BasketCookieItemVM.cs",
-              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\ViewModel\\Baskets\\BasketCookieItemVM.cs",
-              "RelativeToolTip": "Uniqloo\\ViewModel\\Baskets\\BasketCookieItemVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\ViewModel\\Auths\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "Uniqloo\\ViewModel\\Auths\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\ViewModel\\Auths\\RegisterVM.cs",
+              "RelativeToolTip": "Uniqloo\\ViewModel\\Auths\\RegisterVM.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T16:34:34.628Z",
+              "WhenOpened": "2024-12-02T19:52:46.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "Uniqloo\\Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "Uniqloo\\Controllers\\ShopController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T15:31:06.159Z",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Views\\AccountControlle\\Register.cshtml",
+              "RelativeDocumentMoniker": "Uniqloo\\Views\\AccountControlle\\Register.cshtml",
+              "ToolTip": "C:\\Users\\99460\\Desktop\\Uniqloo\\Uniqloo\\Views\\AccountControlle\\Register.cshtml",
+              "RelativeToolTip": "Uniqloo\\Views\\AccountControlle\\Register.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKUAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T19:32:45.783Z",
               "EditorCaption": ""
             }
           ]

@@ -1,6 +1,8 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore;
 using Uniqloo.DataAccess;
+using Uniqloo.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +11,18 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<UniqloDbContext>(opt => 
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSql"));
-}
-);
+});
+
+builder.Services.AddIdentity<User, IdentityRole>(opt =>
+{
+    opt.User.RequireUniqueEmail = true;
+    opt.Password.RequiredLength = 8;
+    opt.Password.RequireDigit = true;
+    opt.Password.RequireLowercase = true;
+    opt.Password.RequireUppercase = true;
+    opt.Lockout.MaxFailedAccessAttempts = 1;
+    opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(int.MaxValue);
+}).AddDefaultTokenProviders().AddEntityFrameworkStores<UniqloDbContext>();
 
 var app = builder.Build();
 
