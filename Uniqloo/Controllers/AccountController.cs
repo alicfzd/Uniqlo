@@ -5,7 +5,7 @@ using Uniqloo.ViewModel.Auths;
 
 namespace Uniqloo.Controllers
 {
-    public class AccountControlle(UserManager<User> _userManager) : Controller
+    public class AccountController(UserManager<User> _userManager) : Controller
     {
         public IActionResult Register()
         {

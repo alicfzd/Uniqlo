@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using NuGet.Packaging;
 using Uniqloo.DataAccess;
 using Uniqloo.Extentions;
 using Uniqloo.Models;
@@ -18,8 +19,8 @@ namespace Uniqloo.Areas.Admin.Controllers
         public async Task<IActionResult> Create()
         {
             ViewBag.Catagories = await _context.Brands.Where(x => !x.IsDeleted).ToListAsync();
-            SelectList sl = new SelectList(ViewBag.Catagories, "Id", "Name");
             return View();
+
         }
         [HttpPost]
         public async Task<IActionResult> Create(ProductCreateVM vm)
@@ -45,9 +46,14 @@ namespace Uniqloo.Areas.Admin.Controllers
                     ModelState.AddModelError("OtherFiles", fileNames + " is (are) bigger than 400kb");
                 }
             }
-            if (!ModelState.IsValid) return View(vm);
+            if (!ModelState.IsValid)
+            { 
+                ViewBag.Categories = await _context.Brands.Where(x => !x.IsDeleted).ToListAsync();
+                return View(vm);
+            }
             if (!await _context.Brands.AnyAsync(x => x.Id == vm.BrandId))
             {
+                ViewBag.Catagories = await _context.Brands.Where(x => !x.IsDeleted).ToListAsync();
                 ModelState.AddModelError("BrandId", "Brand tapilmadi");
                 return View();
             }
@@ -89,28 +95,29 @@ namespace Uniqloo.Areas.Admin.Controllers
             return View(data);
 
         }
-        //[HttpPost]
-        //public async Task<IActionResult> DeleteImgs(int id, IEnumerable<string> imgNames)
-        //{
-        //    int result = await _context.ProductImage.Where(x => imgNames.Contains(x.ImageUrl)).ExecuteDeleteAsync();
-        //    if (result > 0)
-        //    {
-
-        //        var imageFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imgs"); 
-        //        foreach (var imgName in imgNames)
-        //        {
-        //            var filePath = Path.Combine(imageFolderPath, imgName);
-
-
-        //            if (System.IO.File.Exists(filePath))
-        //            {
-        //                System.IO.File.Delete(filePath);
-        //            }
-        //        }
-
-        //    }
-        //    return RedirectToAction(nameof(Update), new { id });
-        //}
+        [HttpPost]
+        public async Task<IActionResult> Update(int? id, ProductUpdateVM vm)
+        {
+            var data = await _context.Products.Include(x => x.Images)
+                .Where(x => x.Id == id)
+                .FirstOrDefaultAsync();
+            data.Images.AddRange(vm.OtherFiles.Select(x => new ProductImage
+            {
+                ImageUrl = x.UploadAsync(_env.WebRootPath, "imgs", "products").Result
+            }).ToList());
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        [HttpPost]
+        public async Task<IActionResult> DeleteImgs(int id, IEnumerable<string> imgNames)
+        {            
+            int result = await _context.ProductImages.Where(x => imgNames.Contains(x.ImageUrl)).ExecuteDeleteAsync();
+            if (result > 0)
+            {
+                System.IO.File.Delete("dlt");
+            }
+            return RedirectToAction(nameof(Update), new { id });
+        }
     }
 
 }
