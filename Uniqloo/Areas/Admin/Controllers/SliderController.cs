@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Uniqloo.DataAccess;
+using Uniqloo.Models;
 using Uniqloo.ViewModel.Slider;
 
 namespace Uniqloo.Areas.Admin.Controllers
@@ -32,12 +33,21 @@ namespace Uniqloo.Areas.Admin.Controllers
                 return View(vm);
             }
             string newFileName = Path.GetRandomFileName() + Path.GetExtension(vm.File.FileName);
-            using (Stream stream = System.IO.File.Create(Path.Combine(_env.WebRootPath, "imgs", newFileName))) 
+            using (Stream stream = System.IO.File.Create(Path.Combine(_env.WebRootPath, "imgs", "sliders", newFileName))) 
             {
                 await vm.File.CopyToAsync(stream);
             }
+            Slider slider = new Slider
+            {
 
-            return View(vm);
+                ImageUrl = newFileName,
+                Title = vm.Title,
+                Subtitle = vm.Subtitle!,
+                Link = vm.Link
+            };
+            await _context.Sliders.AddAsync(slider);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }

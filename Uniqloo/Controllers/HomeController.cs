@@ -15,7 +15,9 @@ namespace Uniqloo.Controllers
         {
             HomeVM vm = new();
             vm.Sliders = await _context.Sliders.Select(x => new SliderListItemVM
+
             {
+  
                 ImageUrl = x.ImageUrl,
                 Link = x.Link,
                 Subtitle = x.Subtitle,

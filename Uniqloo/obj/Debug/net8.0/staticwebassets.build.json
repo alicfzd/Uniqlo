@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kyM5Dajb6aLoZCDyWFWGP+spmBq3uxhqman7PMMWDow=",
+  "Hash": "Jsgw7/Br2IyzHZ75Pxsr5H8v4cBz9Au8S9m7xzU1JhE=",
   "Source": "Uniqloo",
   "BasePath": "_content/Uniqloo",
   "Mode": "Default",
@@ -37181,12 +37181,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\style.css"
     },
     {
-      "Identity": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\imgs\\ayo5hy0r.iz2.jpg",
+      "Identity": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\imgs\\sliders\\b34bcj4p.ugy.jpg",
       "SourceId": "Uniqloo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\",
       "BasePath": "_content/Uniqloo",
-      "RelativePath": "imgs/ayo5hy0r.iz2.jpg",
+      "RelativePath": "imgs/sliders/b34bcj4p.ugy.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -37197,15 +37197,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\ayo5hy0r.iz2.jpg"
+      "OriginalItemSpec": "wwwroot\\imgs\\sliders\\b34bcj4p.ugy.jpg"
     },
     {
-      "Identity": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\imgs\\c0bjixbj.kk4.jpg",
+      "Identity": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\imgs\\sliders\\e5ihphss.502.jpg",
       "SourceId": "Uniqloo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\",
       "BasePath": "_content/Uniqloo",
-      "RelativePath": "imgs/c0bjixbj.kk4.jpg",
+      "RelativePath": "imgs/sliders/e5ihphss.502.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -37216,26 +37216,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\c0bjixbj.kk4.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\imgs\\hriz5t3v.5ex.jpg",
-      "SourceId": "Uniqloo",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\",
-      "BasePath": "_content/Uniqloo",
-      "RelativePath": "imgs/hriz5t3v.5ex.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\imgs\\hriz5t3v.5ex.jpg"
+      "OriginalItemSpec": "wwwroot\\imgs\\sliders\\e5ihphss.502.jpg"
     }
   ]
 }

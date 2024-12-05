@@ -7825,16 +7825,12 @@
       "PackagePath": "staticwebassets\\assets\\style.css"
     },
     {
-      "Id": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\imgs\\ayo5hy0r.iz2.jpg",
-      "PackagePath": "staticwebassets\\imgs\\ayo5hy0r.iz2.jpg"
+      "Id": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\imgs\\sliders\\b34bcj4p.ugy.jpg",
+      "PackagePath": "staticwebassets\\imgs\\sliders\\b34bcj4p.ugy.jpg"
     },
     {
-      "Id": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\imgs\\c0bjixbj.kk4.jpg",
-      "PackagePath": "staticwebassets\\imgs\\c0bjixbj.kk4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\imgs\\hriz5t3v.5ex.jpg",
-      "PackagePath": "staticwebassets\\imgs\\hriz5t3v.5ex.jpg"
+      "Id": "C:\\Users\\I Novbe\\Desktop\\Uniqlo\\Uniqloo\\wwwroot\\imgs\\sliders\\e5ihphss.502.jpg",
+      "PackagePath": "staticwebassets\\imgs\\sliders\\e5ihphss.502.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Uniqloo.Microsoft.AspNetCore.StaticWebAssets.props",
