@@ -23,5 +23,7 @@ namespace Uniqloo.Models
         {
             get; set;
         }
+        public ICollection<ProductRating>? ProductRatings { get; set; }
+        public ICollection<Tag>? Tags { get; set; }
     }
 }

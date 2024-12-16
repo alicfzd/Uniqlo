@@ -1954,5 +1954,5 @@ wwwroot\assets\js\vendor\jquery-migrate-3.3.2.min.js
 wwwroot\assets\js\vendor\modernizr-3.11.2.min.js
 wwwroot\assets\js\waypoints.min.js
 wwwroot\assets\style.css
-wwwroot\imgs\c0bjixbj.kk4.jpg
-wwwroot\imgs\hriz5t3v.5ex.jpg
+wwwroot\imgs\sliders\b34bcj4p.ugy.jpg
+wwwroot\imgs\sliders\e5ihphss.502.jpg
